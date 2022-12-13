@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main(){
+    int a=10;
+    int *p;
+    p=&a;
+    printf("\n Value of a=%d",a);
+    printf("\n value of a=%d",&a);
+    printf("\n Value of p=%d",p);
+    printf("\n Value of p=%d",&p);
+    printf("\n value of a=%d",*p);
+}
+
