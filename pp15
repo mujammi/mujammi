@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+    int a1,a2;
+    int *ptr1,*ptr2;
+    int result;
+    printf("Enter a1:");
+    scanf("%d",&a1);
+    printf("Enter a2:");
+    scanf("%d",&a2);
+    ptr1=&a1;
+    ptr2=&a2;
+    printf("\n addition is %d", *ptr1+ *ptr2);
+    printf("\n subtraction is %d", *ptr1 - *ptr2);
+    printf("\n division is %d", *ptr1 / *ptr2);
+    printf("\n multiplicatin is %d", *ptr1 * (*ptr2));
+
+}
